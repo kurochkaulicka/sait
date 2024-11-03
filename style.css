@@ -1,0 +1,21 @@
+.m {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #06D001;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.g {
+    text-decoration: none;
+    color: #1e5223;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size:  16px;
+}
+.g:hover {
+    text-shadow: 0px 0px 50px #051d05;
+    transition: 0.3s all linear;
+}
