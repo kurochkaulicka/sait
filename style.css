@@ -1,21 +1,124 @@
-.m {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    background-color: #06D001;
-    height: 50px;
+header{
     width: 100%;
-    box-sizing: border-box;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: #17BF1A;
+    font-size: large;
+    border-bottom: 2px solid black;
+    
 }
 .g {
     text-decoration: none;
-    color: #1e5223;
+    color: black;
     padding: 0 15px;
     font-weight: bold;
     font-size:  16px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-weight: 700;
+    font-family: 'Oswald';
+
 }
 .g:hover {
     text-shadow: 0px 0px 50px #051d05;
     transition: 0.3s all linear;
+}
+
+.r{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald';
+}
+
+.banner{
+    height: 90vh;
+    background-image: url(img/Group\ 1\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+.avtobus{
+    
+}
+
+.mods{
+    background-color: #272727;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+}
+
+.mod{
+    background-color: #AAAAAA;
+    border-radius: 34px;
+    width: 85%;
+    padding: 14px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.mod_img{
+    height: 130px;
+    width: 130px;
+    background-color: #525151;
+    padding: 13px;
+    border-radius: 31px;
+    margin-right: 20px;
+}
+
+.mod_text {
+    width:  70%;
+    
+}
+
+.mod_name{
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+}
+
+.mod_a {
+   font-weight: regular;
+   font-size: 14px;
+   margin: 0;
+}
+
+.mod_d {
+    font-weight: regular;
+    font-size: 32px;
+    margin: 0;
+}
+
+.mod_btn{
+    background-color: #D9D9D9;
+    border-radius: 12px;
+    padding: 3px 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    align-self: flex-start;
+
+}
+
+.mod_btn img{
+    width: 40px;
 }
