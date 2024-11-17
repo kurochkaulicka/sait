@@ -50,7 +50,8 @@ body{
 }
 
 .avtobus{
-    
+    height: 25px;
+    background-color: #DED8D8;
 }
 
 .mods{
@@ -121,4 +122,16 @@ body{
 
 .mod_btn img{
     width: 40px;
+}
+
+.np1s{
+    color: #DED8D8;
+}
+
+.line{
+    width: 80%;
+    height: 28px;
+    margin: 0 auto;
+    background-color: #DED8D8;
+
 }
