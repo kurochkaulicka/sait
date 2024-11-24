@@ -126,6 +126,8 @@ body{
 
 .np1s{
     color: #DED8D8;
+    font-size: 64px;
+    margin: 0;
 }
 
 .line{
@@ -134,4 +136,52 @@ body{
     margin: 0 auto;
     background-color: #DED8D8;
 
+}
+
+.pidval{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    padding-top: 5px;
+    background-color: #D9D9D9;
+
+}
+
+.social{
+    display: flex;
+    gap: 60px;
+    align-items: end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.Julicky div{
+    display: flex;
+    align-items: center;
+}
+
+.ennou{
+    width: 20px;
+    height: 20px;
+}
+
+.X div{
+    display: flex;
+    align-items: center;
+}
+
+.XX {
+    width: 40px;
+    height: 30px;
+}
+
+.Abobap{
+    width: 100px;
+    height: 30px;
+}
+
+.Aboba{
+    padding-left: 10px;
 }

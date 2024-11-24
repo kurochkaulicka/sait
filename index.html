@@ -13,7 +13,18 @@
     <header>
         
         <a href="" class="g">Головна</a>
-        <a href="" class="g">Моди</a>
+        <div style="display: flex;" class="g">
+            <label for="mods">Моди</label>
+            <select name="mods" id="mods">
+                <Option>Вспомагаючі</Option>
+                <Option>Індустріальні</Option>
+                <Option>Магія</Option>
+                <Option>Моби</Option>
+                <Option>Оптимізація</Option>
+                <Option>Їжа</Option>
+            </select>
+        </div>
+        
         <a href="" class="g">Зборки</a>
         <a href="" class="g r">Контакти:<img src="img/image 1.png" width="30px" height="30px" alt=""> <img src="img/image 2.svg" width="30px" height="30
     px" alt=""></a>
@@ -22,66 +33,39 @@
     <main>
         <section class="banner"></section>
         <section class="avtobus"></section>
-        <section class="mods">
-            <h1 class="np1s"></h1>
+        <section class="mods" id="mod">
+            <h1 class="np1s">Вспомагаючі</h1>
             <div class="line"></div>
-            <div class="mod">      
-                <img class="mod_img" src="img/image 4.png" alt="">
+            <div class="mod">              
+                <img class="mod_img" src="img/Логотип_(Just_Enough_Items) 1.png" alt="">
                 <div class="mod_text">
-                    <p class="mod_name">AppleSkin</p>
-                    <p class="mod_a"> by squeek502</p>
-                    <p class="mod_d">Додає різні покращення HUD пов’язані з їжею.</p>
+                    <p class="mod_name">Just Enough Item (JEI)</p>
+                    <p class="mod_a">by ansandr</p>
+                    <p class="mod_d">З його допомогою ви зможете, здобути ігрові предмети і рецепти.</p>
                 </div>
                 <button class=" mod_btn">
-                    Їжа
-                    <img src="img/image 5.png" alt="">
+                    Вспомагаючі
+                    <img src="img/Book_JE2_BE2 1.png" alt="">
                 </button>
             </div>
 
-            <div class="mod">      
-                <img class="mod_img" src="img/image 14.png" alt="">
-                <div class="mod_text">
-                    <p class="mod_name">Croptopia</p>
-                    <p class="mod_a"> by thethonk</p>
-                    <p class="mod_d">Модифікація для справжніх гурманів, з якою майнкрафт з'явиться велика різноманітність різних культур і рецепти для приготування їжі з них.</p>
-                </div>
-                <button class=" mod_btn">
-                    Їжа
-                    <img src="img/image 5.png" alt="">
-                </button>
+            <div class="mod">              
+            <img class="mod_img" src="img/image 8.png" alt="">
+            <div class="mod_text">
+                <p class="mod_name">Neat</p>
+                <p class="mod_a">by Vazkii, williewillus</p>
+                <p class="mod_d">Невелика модифікація, яка показуватиме вам інформацію про здоров'я моба  у вигляді таблички.</p>
+            </div>
+            <button class=" mod_btn">
+                Вспомагаючі
+                <img src="img/Book_JE2_BE2 1.png" alt="">
+            </button>
             </div>
         </section>
 
+          
         <section class="mods">
-            <h1 class="np1s"></h1>
-            <div class="line"></div>
-            <div class="mod">          
-                <img class="mod_img" src="img/URzSXznt-removebg-preview 1.png" alt="">
-                <div class="mod_text">
-                    <p class="mod_name">The Twilight Forest</p>
-                    <p class="mod_a">by benimatic</p>
-                    <p class="mod_d">Глобальна модифікація яка додає новий вимір “Сумеричний Ліс”</p>
-                </div>
-                <button class=" mod_btn">
-                    Магія
-                    <img src="img/png-transparent-minecraft-pocket-edition-enchanted-book-wiki-magic-book-purple-game-violet-thumbnail-removebg-preview 1.png" alt="">
-                </button>
-            </div>
-            <div class="mod">              
-                <img class="mod_img" src="img/image 9.png" alt="">
-                <div class="mod_text">
-                    <p class="mod_name">Ice and Fire</p>
-                    <p class="mod_a">by balex1the1666, javaraptor</p>
-                    <p class="mod_d">Грандіозний мод, після встановлення якого в ігровому світі оселяться дракони.</p>
-                </div>
-                <button class=" mod_btn">
-                    Магія
-                    <img src="img/png-transparent-minecraft-pocket-edition-enchanted-book-wiki-magic-book-purple-game-violet-thumbnail-removebg-preview 1.png" alt="">
-                </button>
-            </div>      
-        </section>  
-        <section class="mods">
-            <h1 class="np1s"></h1>
+            <h1 class="np1s">Індустріальні</h1>
             <div class="line"></div>
             <div class="mod">
                 <img class="mod_img" src="img/image 6.png" alt="">
@@ -111,37 +95,36 @@
         </section>  
 
         <section class="mods">
-            <h1 class="np1s"></h1>
+            <h1 class="np1s">Магія</h1>
             <div class="line"></div>
-            <div class="mod">              
-                <img class="mod_img" src="img/Логотип_(Just_Enough_Items) 1.png" alt="">
+            <div class="mod">          
+                <img class="mod_img" src="img/URzSXznt-removebg-preview 1.png" alt="">
                 <div class="mod_text">
-                    <p class="mod_name">Just Enough Item (JEI)</p>
-                    <p class="mod_a">by ansandr</p>
-                    <p class="mod_d">З його допомогою ви зможете, здобути ігрові предмети і рецепти.</p>
+                    <p class="mod_name">The Twilight Forest</p>
+                    <p class="mod_a">by benimatic</p>
+                    <p class="mod_d">Глобальна модифікація яка додає новий вимір “Сумеричний Ліс”</p>
                 </div>
                 <button class=" mod_btn">
-                    Вспомагаючі
-                    <img src="img/Book_JE2_BE2 1.png" alt="">
+                    Магія
+                    <img src="img/png-transparent-minecraft-pocket-edition-enchanted-book-wiki-magic-book-purple-game-violet-thumbnail-removebg-preview 1.png" alt="">
                 </button>
             </div>
-
             <div class="mod">              
-            <img class="mod_img" src="img/image 8.png" alt="">
-            <div class="mod_text">
-                <p class="mod_name">Neat</p>
-                <p class="mod_a">by Vazkii, williewillus</p>
-                <p class="mod_d">Невелика модифікація, яка показуватиме вам інформацію про здоров'я моба  у вигляді таблички.</p>
-            </div>
-            <button class=" mod_btn">
-                Вспомагаючі
-                <img src="img/Book_JE2_BE2 1.png" alt="">
-            </button>
-            </div>
+                <img class="mod_img" src="img/image 9.png" alt="">
+                <div class="mod_text">
+                    <p class="mod_name">Ice and Fire</p>
+                    <p class="mod_a">by balex1the1666, javaraptor</p>
+                    <p class="mod_d">Грандіозний мод, після встановлення якого в ігровому світі оселяться дракони.</p>
+                </div>
+                <button class=" mod_btn">
+                    Магія
+                    <img src="img/png-transparent-minecraft-pocket-edition-enchanted-book-wiki-magic-book-purple-game-violet-thumbnail-removebg-preview 1.png" alt="">
+                </button>
+            </div>      
         </section>
 
         <section class="mods">
-            <h1 class="np1s"></h1>
+            <h1 class="np1s">Моби</h1>
             <div class="line"></div>
             <div class="mod">              
                 <img class="mod_img" src="img/d42fb7a69f1e7a86584fa1ed43520af98acec065 1.png" alt="">
@@ -171,7 +154,7 @@
         </section>
 
         <section class="mods">
-            <h1 class="np1s"></h1>
+            <h1 class="np1s">Оптимізація</h1>
             <div class="line"></div>
             <div class="mod">              
                 <img class="mod_img" src="img/n69833574.png" alt="">
@@ -199,8 +182,64 @@
                 </button>
             </div>
         </section>
+
+        <section class="mods">
+            <h1 class="np1s">Їжа</h1>
+            <div class="line"></div>
+            <div class="mod">      
+                <img class="mod_img" src="img/image 4.png" alt="">
+                <div class="mod_text">
+                    <p class="mod_name">AppleSkin</p>
+                    <p class="mod_a"> by squeek502</p>
+                    <p class="mod_d">Додає різні покращення HUD пов’язані з їжею.</p>
+                </div>
+                <button class=" mod_btn">
+                    Їжа
+                    <img src="img/image 5.png" alt="">
+                </button>
+            </div>
+
+            <div class="mod">      
+                <img class="mod_img" src="img/image 14.png" alt="">
+                <div class="mod_text">
+                    <p class="mod_name">Croptopia</p>
+                    <p class="mod_a"> by thethonk</p>
+                    <p class="mod_d">Модифікація для справжніх гурманів, з якою майнкрафт з'явиться велика різноманітність різних культур і рецепти для приготування їжі з них.</p>
+                </div>
+                <button class=" mod_btn">
+                    Їжа
+                    <img src="img/image 5.png" alt="">
+                </button>
+            </div>
+        </section>
         </section>
     </main>
+
+    <footer>
+        <section class="pidval">
+            <section class="Aboba">
+                <div><h1>Aboba <img class="Abobap" src="img/image.png" alt=""></h1></div>
+                <div class="deviz">
+                    <p>Наша команда дуже </p>
+                    <p>любить своїх клієнтів :3</p>
+                </div>
+            </section>
+            <div class="social">
+                <section class="X">
+                    <div><img class="XX" src="img/twitter_x_new_logo_square_x_icon_256075.png" alt="">: @mrfloppa12</div>
+                    <div><img class="XX" src="img/twitter_x_new_logo_square_x_icon_256075.png" alt="">: @loh228</div>
+                    <div><img class="XX" src="img/twitter_x_new_logo_square_x_icon_256075.png" alt="">: @Julian31kn676</div>
+                </section>
+
+                <section class="Julicky">
+                    <div><img class="ennou" src="img/email.png" alt=""> : mkkm007891@gmail.com</div>
+                    <div><img class="ennou" src="img/email.png" alt=""> : Julian31kn676@gmail.com</div>
+                    <div><img class="ennou" src="img/email.png" alt=""> : MrFloppa1992@gmail.com</div>
+                </section>
+            </div>
+            
+        </section>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html
