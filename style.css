@@ -3,7 +3,7 @@ header{
     height: 10vh;
     display: flex;
     align-items: center;
-    background-color: #17BF1A;
+    background-color: #634FC9;
     font-size: large;
     border-bottom: 2px solid black;
     
@@ -184,4 +184,16 @@ footer{
 
 .Aboba{
     padding-left: 10px;
+}
+
+select{
+    width: 20px;
+    background: transparent;
+    border: none;
+}
+
+option{
+    background-color: #ADB5D6;
+    border-bottom: 1px solid black;
+    padding: 10px;
 }
